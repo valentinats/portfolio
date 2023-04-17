@@ -1,0 +1,51 @@
+@import "../styles/primary.css";
+@import "../styles/portfolio.css";
+@import "../styles/competencies.css";
+@import "../styles/services.css";
+@import "../styles/contacts.css";
+@import "../styles/footer.css";
+
+html,
+body {
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+main {
+  margin: 0 auto;
+  background-size: 100%;
+}
+
+@media (max-width: 1199px) {
+  .main {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}

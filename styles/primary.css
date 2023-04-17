@@ -1,0 +1,117 @@
+.primary {
+  padding-bottom: 150px;
+}
+
+.primary-container {
+  background-image: url("../images/man.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 10%;
+  overflow: hidden;
+  width: 100%;
+  height: 765px;
+  position: relative;
+}
+
+.menu-logo {
+  margin-top: 36px;
+  padding: 0px 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  max-width: 130px;
+  height: 39px;
+  margin-left: 123px;
+  background: black;
+  border-radius: 100px;
+}
+
+.menu-nav {
+  float: right;
+  margin-top: 33px;
+  line-height: 23px;
+  letter-spacing: -0.03em;
+  font-size: 18px;
+}
+
+.menu-nav a {
+  color: white;
+  margin-left: 42px;
+  letter-spacing: -0.03em;
+  line-height: 23px;
+}
+
+.menu-nav a:last-child {
+  margin-right: 124px;
+}
+
+.menu-nav a:hover {
+  color: #1bff07;
+}
+
+.primary-title {
+  position: absolute;
+  margin-left: 119px;
+  bottom: 94px;
+  max-width: 919px;
+  font-size: 80px;
+  color: #1bff07;
+  line-height: 70px;
+  letter-spacing: -0.03em;
+}
+
+.primary-text {
+  color: white;
+  max-width: 430px;
+  margin-left: 125px;
+  bottom: 328px;
+  position: absolute;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+}
+
+@media (max-width: 1199px) {
+  .primary-container {
+    background-image: url("../images/man-tablet.jpg");
+    height: 765px;
+  }
+
+  .menu-logo {
+    margin-top: 23px;
+    margin-left: 15px;
+  }
+
+  .primary-title {
+    margin-left: 15px;
+    bottom: 60px;
+    max-width: 727px;
+    font-size: 60px;
+  }
+
+  .primary-text {
+    margin-left: 15px;
+    bottom: 294px;
+  }
+}
+
+@media (max-width: 700px) {
+  .primary-container {
+    background-image: url("../images/man-phone.jpg");
+    height: 716px;
+  }
+
+  .primary-title {
+    max-width: 353px;
+    font-size: 40px;
+    line-height: 35px;
+  }
+
+  .primary-text {   
+    max-width: 310px;
+    bottom: 275px;   
+    font-size: 15px;
+    line-height: 20px;
+  }
+}

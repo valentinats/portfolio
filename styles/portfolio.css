@@ -1,0 +1,71 @@
+.portfolio-title {
+  padding-bottom: 40px;
+  font-size: 55px;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+}
+
+.portfolio-item {
+  position: relative;
+}
+
+.portfolio-label {
+  position: absolute;
+  margin-left: 45px;
+  margin-top: 50px;
+  padding: 10px 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1bff07;
+  color: black;
+  border-radius: 100px;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+}
+
+.portfolio-item-img {
+  min-width: 1150px;
+  height: 550px;
+}
+
+.portfolio-item-title {
+  position: absolute;
+  left: 50px;
+  bottom: 94px;
+  font-size: 35px;
+  line-height: 46px;
+  letter-spacing: -0.03em;
+}
+
+.portfolio-item-description {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: -0.03em;
+}
+
+.portfolio-button {
+  margin-top: 80px;
+  margin-bottom: 150px;
+  width: 582px;
+  height: 153px;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  color: black;
+  background-color: #1bff07;
+  border: 1px solid #1bff07;
+  border-radius: 10px;
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: -0.03em;
+}
+
+.portfolio-button:hover {
+  color: #1bff07;
+  background-color: black;
+  cursor: pointer;
+}
