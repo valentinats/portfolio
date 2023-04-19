@@ -26,8 +26,7 @@
 }
 
 .portfolio-item-img {
-  min-width: 1150px;
-  height: 550px;
+  width: 100%;
 }
 
 .portfolio-item-title {
@@ -76,4 +75,79 @@
   color: #1bff07;
   background-color: black;
   cursor: pointer;
+}
+
+@media (max-width: 1199px) {
+  .portfolio-title {
+    font-size: 45px;
+    line-height: 58px;
+  }
+
+  .portfolio-label {
+    margin-left: 35px;
+    margin-top: 40px;
+    padding: 8px 16px;
+    border-radius: 80px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .portfolio-item-title {
+    left: 40px;
+    bottom: 76px;
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .portfolio-item-description {
+    left: 40px;
+    bottom: 40px;
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  .portfolio-button {
+    margin-top: 64px;
+    width: 460px;
+    height: 124px;
+    border-radius: 8px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .portfolio-title {
+    font-size: 30px;
+    line-height: 39px;
+  }
+
+  .portfolio-label {
+    margin-left: 33px;
+    margin-top: 30px;
+    padding: 6px 19px;
+    border-radius: 64px;
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .portfolio-item-title {
+    left: 35px;
+  }
+
+  .portfolio-item-description {
+    left: 35px;
+    bottom: 50px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .portfolio-button {
+    margin-top: 60px;
+    margin-bottom: 66px;
+    width: 350px;
+    height: 80px;
+    font-size: 18px;
+    line-height: 23px;
+  }
 }

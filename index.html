@@ -39,7 +39,7 @@
     </div>
   </div>
 <main>
-   <section class="portfolio" id="portfolio">
+  <section class="portfolio" id="portfolio">
       <div class="container">
         <div class="portfolio-title">
           <h2>Самые свежие проекты</h2>
@@ -47,12 +47,11 @@
         <ul class="portfolio-items">
           <li class="portfolio-item">
             <p class="portfolio-label">дизайн интерьера</p>
-            <div class="portfolio-item-img">
-              <img
-                src="images/metrika.png"
-                alt="Карточка сайта студии интерьеров"
-              />
-            </div>
+            <picture class="portfolio-images">
+              <source media="(max-width: 500px)" srcset="images/metrika-phone.png">
+              <source media="(max-width: 1199px)" srcset="images/metrika-tablet.png">
+              <img src="images/metrika.png" alt="Карточка сайта студии интерьеров" class="portfolio-item-img">
+            </picture>
             <div class="portfolio-item-title">
               <a href="https://valentinats.github.io/metrika/">Метрика</a>
             </div>
@@ -60,9 +59,11 @@
           </li>
           <li class="portfolio-item">
             <p class="portfolio-label">презентация продукта</p>
-            <div class="portfolio-item-img">
-              <img src="images/nothing.png" alt="Карточка сайта магазина наушников" />
-            </div>
+            <picture class="portfolio-images">
+              <source media="(max-width: 500px)" srcset="images/nothing-phone.png">
+              <source media="(max-width: 1199px)" srcset="images/nothing-tablet.png">
+              <img src="images/nothing.png" alt="Карточка сайта магазина наушников" class="portfolio-item-img">
+            </picture>
             <div class="portfolio-item-title">
               <a href="https://valentinats.github.io/headphone-store/">Nothing Ear</a>
             </div>
@@ -70,9 +71,11 @@
           </li>
           <li class="portfolio-item">
             <p class="portfolio-label">аренда автомобилей</p>
-            <div class="portfolio-item-img">
-              <img src="images/cars.png" alt="Карточка сайта бронирования автомобилей" />
-            </div>
+            <picture class="portfolio-images">
+              <source media="(max-width: 500px)" srcset="images/cars-phone.png">
+              <source media="(max-width: 1199px)" srcset="images/cars-tablet.png">
+              <img src="images/cars.png" alt="Карточка сайта бронирования автомобилей" class="portfolio-item-img">
+            </picture>
             <div class="portfolio-item-title">
               <a href="https://valentinats.github.io/cars-hw/">Luxorides</a>
             </div>
@@ -116,7 +119,6 @@
           <li class="competencies-item">
             <img src="images/library-icon.png" alt="Иконка библиотеки" />
             <h3>Работа с библиотеками и фреймворками</h3>
-            <br><br><br>  
             <p>
               фронтенд разработчики должны быть знакомы с различными
               библиотеками и фреймворками, такими как React, Angular, Vue и
@@ -141,7 +143,7 @@
       </div>
     </section>
 
-    <section class="services" id="services">
+<!--    <section class="services" id="services">
       <div class="container">
         <div class="services-title">
           <h2>Помогаю реализовать широкий спектр задач</h2>
@@ -149,7 +151,11 @@
         <ul class="services-items">
 
       <li class="services-item">
-            <img src="images/key-site.png" alt="Билборд сайта под ключ" />
+            <picture class="services-images">
+              <source media="(max-width: 500px)" srcset="images/key-site-phone.png">
+              <source media="(max-width: 1199px)" srcset="images/key-site-tablet.png">
+              <img src="images/key-site.png" alt="Билборд сайта под ключ" class="services-item-img">
+            </picture>
             <div class="services-item-description">
               <h3>Разработка сайта под ключ</h3>
               <p>
@@ -162,7 +168,11 @@
 
         <li class="services-item">
             <div class="services-item-img">
-              <img src="images/layout-site.png" alt="Билборд верстки сайта" />
+              <picture class="services-images">
+                <source media="(max-width: 500px)" srcset="images/layout-site-phone.png">
+                <source media="(max-width: 1199px)" srcset="images/layout-site-tablet.png">
+                <img src="images/layout-site.png" alt="Билборд верстки сайта" class="services-item-img">
+              </picture>
             </div>
             <div class="services-item-description">
               <h3>Верстка сайтов</h3>
@@ -176,7 +186,11 @@
 
           <li class="services-item">
             <div class="services-item-img">
-              <img src="images/mobile-interface.png" alt="Билборд мобильного интерфейса" />
+              <picture class="services-images">
+                <source media="(max-width: 500px)" srcset="images/mobile-interface-phone.png">
+                <source media="(max-width: 1199px)" srcset="images/mobile-interface-tablet.png">
+                <img src="images/mobile-interface.png" alt="Билборд мобильного интерфейса" class="services-item-img">
+              </picture>
             </div>
             <div class="services-item-description">
               <h3>Разработка мобильного интерфейса</h3>
@@ -191,15 +205,14 @@
         </ul>
       </div>
     </section>
-  </main>  
+  </main>  -->
 
-   <section class="contacts" id="contacts">
+<!--   <section class="contacts" id="contacts">
       <div class="contacts-wrapper">
-          <img
-            class="contacts-img"
-            src="images/programmer.png"
-            alt="Нарисованный парень-программист в очках за компьютером"
-          />
+          <picture class="contacts-img">
+            <source media="(max-width: 1199px)" srcset="images/programmer-tablet.png">
+            <img src="images/programmer.png" alt="Нарисованный парень-программист в очках за компьютером">
+          </picture>
         <div class="contacts-box">
           <h2>Для связи со мной заполните простую форму</h2>
           <form class="order-input-wrapper">
@@ -209,9 +222,9 @@
           <button class="order-button">Отправить</button>
         </div>
       </div>
-    </section>
+    </section> -->
 
-  <footer class="footer">
+<!--  <footer class="footer">
     <div class="footer-container">
       <div class="footer-wrapper">
         <div class="footer-description">
@@ -229,6 +242,6 @@
         </div>
       </div>
     </div>
-  </footer> 
+  </footer> -->
 </body>
 </html>
