@@ -75,7 +75,7 @@
 
 .order-button {
   position: absolute;
-  max-width: 450px;
+  width: 450px;
   left: 122px;
   bottom: 101px;
   background: #1bff07;
