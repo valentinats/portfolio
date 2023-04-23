@@ -78,6 +78,10 @@
     height: 765px;
   }
 
+  .menu-nav {
+    display: none;
+  }
+
   .menu-logo {
     margin-top: 23px;
     margin-left: 15px;
