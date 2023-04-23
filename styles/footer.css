@@ -10,21 +10,25 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  row-gap: 183px;
+}
+
+.footer-description {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .footer-text {
-  position: relative;
   left: 125px;
   font-size: 22px;
   line-height: 30px;
   letter-spacing: -0.03em;
   color: black;
-  padding: 76px 0 66px;
+  padding: 76px 0 66px 122px;
 }
 
 .footer-copyright {
-  position: absolute;
   left: 125px;
   top: 172px;
   font-size: 20px;
@@ -32,17 +36,17 @@ footer {
   letter-spacing: -0.03em;
   color: black;
   opacity: 0.5;
+  padding-left: 122px;
 }
 
 .footer-social {
   right: 125px;
-  position: relative;
   font-family: Manrope;
   font-size: 22px;
   line-height: 30px;
   letter-spacing: -0.03em;
   color: black;
-  padding: 76px 0 66px;
+  padding: 76px 122px 66px 0;
   width: 272px;
   display: flex;
   justify-content: space-between;
@@ -58,7 +62,6 @@ footer {
 }
 
 .footer-policy {
-  position: absolute;
   top: 172px;
   right: 125px;
   font-size: 20px;
@@ -66,4 +69,90 @@ footer {
   letter-spacing: -0.03em;
   color: black;
   opacity: 0.5;
+  padding-right: 122px;
+}
+
+@media (max-width: 1199px) {
+  footer {
+    height: 184px;
+    border-radius: 20px 30px 0 0;
+  }
+
+  .footer-text {
+    left: 40px;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 51px 0 43px 55px;
+  }
+
+  .footer-copyright {
+    left: 40px;
+    top: 116px;
+    font-size: 14px;
+    line-height: 19px;
+    padding-left: 55px;
+  }
+
+  .footer-social {
+    right: 55px;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 51px 55px 43px 0;
+    width: 189px;
+  }
+
+  .footer-policy {
+    top: 116px;
+    right: 55px;
+    font-size: 14px;
+    line-height: 19px;
+    padding-right: 55px;
+  }
+}
+
+@media (max-width: 767px) {
+  footer {
+    border-radius: 0;
+    height: auto;
+  }
+
+  .footer-description {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .footer-text {
+    left: 40px;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 20px 0 20px 0;
+    text-align: center;
+  }
+
+  .footer-copyright {
+    left: 40px;
+    top: 116px;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 0 0 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-social {
+    right: 55px;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 0 0 20px;
+    margin: 0 auto;
+  }
+
+  .footer-policy {
+    margin-bottom: 20px;
+    top: 116px;
+    padding-right: 0px;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+  }
 }
