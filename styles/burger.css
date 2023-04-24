@@ -6,6 +6,10 @@
 .burger-btn_open {
   content: url(../images/close-button.svg);
   background: none;
+  position: absolute;
+  right: 28px;
+  top: 20px;
+  z-index: 100;
 }
 
 .burger {
@@ -69,6 +73,8 @@
   margin-top: 91px;
   display: flex;
   flex-direction: column;
+  color: white;
+  gap: 20px;
 }
 
 .burger-contacts p {
@@ -88,17 +94,27 @@
 @media (max-width: 1199px) {
   .burger-button {
     display: block;
-    position: relative;
     width: 34px;
     height: 34px;
-    z-index: 100;
+    cursor: pointer;
   }
 
   .burger-button span {
     position: absolute;
-    width: 36px;
-    height: 2px;
+    right: 19px;
+    width: 31px;
+    height: 3px;
+    top: 35px;
     background-color: #1bff07;
+  }
+
+  .burger-button span:last-child {
+    position: absolute;
+    right: 19px;
+    width: 31px;
+    height: 3px;
+    background-color: #1bff07;
+    margin-top: 10px;
   }
 
   .burger-nav {
