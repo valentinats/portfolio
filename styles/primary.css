@@ -3,7 +3,6 @@
 }
 
 .primary-container {
-  /*background-image: url("../images/man.jpg");*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 10%;
@@ -74,7 +73,6 @@
 
 @media (max-width: 1199px) {
   .primary-container {
-    /*background-image: url("../images/man-tablet.jpg");*/
     height: 765px;
   }
 
@@ -106,7 +104,6 @@
   }
 
   .primary-container {
-    /*background-image: url("../images/man-phone.jpg");*/
     height: 716px;
   }
 
